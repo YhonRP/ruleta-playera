@@ -2,7 +2,7 @@ const display = document.getElementById('ruleta-display');
 const button = document.getElementById('spin-button');
 
 // Define los únicos números permitidos en una lista (array)
-const numerosPermitidos = [36, 104];
+const numerosPermitidos = [59, 80];
 
 // Función que elige aleatoriamente entre los números permitidos
 function generarNumeroAleatorioTrampeado() {
@@ -39,3 +39,4 @@ function girarRuleta() {
 
 // Asigna la acción de girar al hacer clic en el botón
 button.addEventListener('click', girarRuleta);
+
