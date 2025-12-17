@@ -10,7 +10,6 @@ function generarNumeroAleatorioTrampeado() {
     const indiceAleatorio = Math.floor(Math.random() * numerosPermitidos.length);
     // Devuelve el número correspondiente a ese índice (59 o 80)
     return numerosPermitidos[indiceAleatorio];
-}
 
 function girarRuleta() {
     button.disabled = true; // Deshabilita el botón durante el giro
@@ -39,5 +38,6 @@ function girarRuleta() {
 
 // Asigna la acción de girar al hacer clic en el botón
 button.addEventListener('click', girarRuleta);
+
 
 
